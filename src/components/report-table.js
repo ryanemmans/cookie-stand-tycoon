@@ -1,37 +1,10 @@
-import React from 'react'
-import { Grid, Table } from 'semantic-ui-react'
-
-const colors = [
-    'red',
-    'orange',
-    'yellow',
-    'olive',
-    'green',
-    'teal',
-    'blue',
-    'violet',
-    'purple',
-    'pink',
-    'brown',
-    'grey',
-    'black',
-]
-
-const sizes = [
-    'mini',
-    'tiny',
-    'small',
-    'medium',
-    'large',
-    'big',
-    'huge',
-    'massive',
-]
+import React from 'react';
+import { Grid, Table } from 'semantic-ui-react';
 
 export default function ReportTable(props) {
 
     if (props.reports.length === 0) {
-        return <h2>No Cookie Stands Available</h2>
+        return <h2>No Cookie Stands Available</h2>;
     }
     const headers = ['Location', ...props.hours, 'Totals'];
 

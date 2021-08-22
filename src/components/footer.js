@@ -3,5 +3,5 @@ export default function Footer({ reports }) {
         <footer>
             <p>{reports.length} Locations World Wide</p>
         </footer>
-    )
+    );
 }
