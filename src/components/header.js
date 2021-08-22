@@ -8,13 +8,13 @@ const style = {
       backgroundColor: '#f9fafb',
       borderRadius: '5px',
       border: '1px solid #dfdfdf',
-      borderTop: '2px solid #2085d0',
+      borderTop: '3px solid #db2828',
     },
   }
 
 export default function HeaderTitle() {
     return (
-        <Header as='h1' color='blue' style={style.h1}>Cookie Stand Admin
+        <Header as='h1' color='teal' style={style.h1}>Cookie Stand Admin
         </Header>
     );
 }

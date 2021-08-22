@@ -23,7 +23,7 @@ const style = {
         verticalAlign: 'middle',
     },
     cookie: {
-        filter: 'invert(39%) sepia(89%) saturate(552%) hue-rotate(164deg) brightness(98%) contrast(90%)',
+        filter: 'invert(40%) sepia(92%) saturate(4213%) hue-rotate(306deg) brightness(94%) contrast(86%)',
         marginTop: '15px',
     }
 }
@@ -43,7 +43,7 @@ export default function CreateForm({ onCreate }) {
         <Grid fluid textAlign='center'>
             <Grid.Row>
                 <Grid.Column width={7}>
-                <Segment raised compact color='blue' textAlign='center' style={style.segment}>
+                <Segment raised compact color='purple' textAlign='center' style={style.segment}>
                     <Form onSubmit={submitHandler}>
                         <Header as='h2'>Create Cookie Stand</Header>
                         <Form.Group>
@@ -74,7 +74,7 @@ export default function CreateForm({ onCreate }) {
                                 <Input type="number" name="avg-cookies" step=".1" placeholder='Quantity' />
                             </Form.Field>
                         </Form.Group>
-                        <Button fluid size={'big'} animated='fade' type="submit" color='blue'>
+                        <Button fluid size={'big'} animated='fade' type="submit" color='yellow'>
                             <Button.Content visible>Create</Button.Content>
                             <Button.Content hidden><Icon name='plus circle' /></Button.Content>
                         </Button>

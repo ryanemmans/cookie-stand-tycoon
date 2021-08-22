@@ -37,7 +37,7 @@ export default function ReportTable(props) {
 
     return (
         <Grid textAlign='center' container columns={1}>
-            <Table collapsing selectable color={'blue'} key={'blue'} size='large'>
+            <Table collapsing selectable color={'green'} size='large'>
                 <HeaderRow headerValues={headers} />
 
                 <Table.Body>
