@@ -5,7 +5,7 @@ import { Grid, Segment, Header, Form, Label, Button, Icon, Image } from 'semanti
 const style = {
   segment: {
     marginBottom: '50px',
-    marginLeft: '30px',
+    marginLeft: '20px',
   },
   label: {
     border: 'none',
