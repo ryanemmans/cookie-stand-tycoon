@@ -15,7 +15,7 @@ const style = {
     filter: 'invert(40%) sepia(92%) saturate(4213%) hue-rotate(306deg) brightness(94%) contrast(86%)',
     marginTop: '15px',
   }
-}
+};
 
 export default function CreateForm({ onCreate }) {
 
