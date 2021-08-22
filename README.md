@@ -6,7 +6,7 @@ What good is being a Cookie Stand Tycoon if you’ve got no style?
 
 ### Overview
 
-The previous web designer’s side hussle just got bought out and they’ve decided to moved on before completing project.
+The previous web designer’s side hussle just got bought out and they’ve decided to move on before completing the project.
 
 The dreams of a well designed cookie stand administration site are crumbling!
 
